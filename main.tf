@@ -20,3 +20,11 @@ resource "aws_instance" "ubuntu" {
 	        rm	= "PF0935"
 	}
 }
+
+resource "aws_route53_record" "www" {
+	zone_id = "Z02318751O20I7EQALUPM"
+        name	= "pf0935-lab"
+        ttl	= "60"
+        type	= "A"
+        records = [aws_instance.ubuntu.public_ip]
+}

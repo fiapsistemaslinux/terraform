@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "0.13.4",
-  "serial": 1,
+  "serial": 5,
   "lineage": "d60c3e92-3a7a-629b-95c5-120116c609b6",
   "outputs": {},
   "resources": [
@@ -15,9 +15,9 @@
           "schema_version": 1,
           "attributes": {
             "ami": "ami-0dba2cb6798deb6d8",
-            "arn": "arn:aws:ec2:us-east-1:224520350870:instance/i-005b73cf414df8fcf",
+            "arn": "arn:aws:ec2:us-east-1:224520350870:instance/i-0d987aa2d2518461a",
             "associate_public_ip_address": true,
-            "availability_zone": "us-east-1b",
+            "availability_zone": "us-east-1a",
             "cpu_core_count": 1,
             "cpu_threads_per_core": 1,
             "credit_specification": [
@@ -33,7 +33,7 @@
             "hibernation": false,
             "host_id": null,
             "iam_instance_profile": "",
-            "id": "i-005b73cf414df8fcf",
+            "id": "i-0d987aa2d2518461a",
             "instance_initiated_shutdown_behavior": null,
             "instance_state": "running",
             "instance_type": "t2.micro",
@@ -52,11 +52,11 @@
             "outpost_arn": "",
             "password_data": "",
             "placement_group": "",
-            "primary_network_interface_id": "eni-01ce10f57255fcc66",
-            "private_dns": "ip-172-31-86-203.ec2.internal",
-            "private_ip": "172.31.86.203",
-            "public_dns": "ec2-52-207-211-104.compute-1.amazonaws.com",
-            "public_ip": "52.207.211.104",
+            "primary_network_interface_id": "eni-0ef1e33aed3c1fd11",
+            "private_dns": "ip-192-168-13-209.ec2.internal",
+            "private_ip": "192.168.13.209",
+            "public_dns": "",
+            "public_ip": "3.221.159.253",
             "root_block_device": [
               {
                 "delete_on_termination": true,
@@ -64,17 +64,15 @@
                 "encrypted": false,
                 "iops": 100,
                 "kms_key_id": "",
-                "volume_id": "vol-02a2a299af699dba5",
+                "volume_id": "vol-0962aa2b9ac9556f5",
                 "volume_size": 8,
                 "volume_type": "gp2"
               }
             ],
             "secondary_private_ips": [],
-            "security_groups": [
-              "default"
-            ],
+            "security_groups": [],
             "source_dest_check": true,
-            "subnet_id": "subnet-a911d488",
+            "subnet_id": "subnet-00c345430671ed485",
             "tags": {
               "project": "demo",
               "rm": "PF0935"
@@ -85,7 +83,7 @@
             "user_data_base64": null,
             "volume_tags": {},
             "vpc_security_group_ids": [
-              "sg-c8d5d7e9"
+              "sg-0f832f987be4f0b1e"
             ]
           },
           "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6MTIwMDAwMDAwMDAwMCwidXBkYXRlIjo2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
